@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #BBB8B2;
+    --primary-color-var: #2E2E3A;
+    --secondary-color: #BC5D2E;
+    --secondary-color-var: #DE9151;
+    --accent-color: #F34213;
+    --font-size-mobile: 8px;
+    --font-size1: 16px;
+    --font-size2: 24px;
+    --font-size3: 32px;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: var(--font-size1);
+    display: flex;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    flex: 1;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 16px 0px 16px;
+}
+
+h1{
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: var(--font-size3);
+}
+
+h2{
+    font-weight: 500;
+    font-size: var(--font-size2);
+}
+
+.cover{
+    position: absolute;
+    right: -100%;
+    width: calc(100% - 128px);  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color-var);
+    align-self: center;
+    transition: all 0.75s cubic-bezier(.25,.8,.25,1);
+}
+
+.cover h1{
+    text-align: center;
+    font-size: 128px;
+}
+
+.visible{
+    position: absolute;
+    right: 0px;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+@media (max-width: 576px) { .cover{
+    width: 100%;
+    height: calc(100% - 64px);
+}}
+@media (max-width: 775px) { .cover h1 {
+     font-size: 64px 
+}}
