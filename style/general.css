@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #BBB8B2;
-    --primary-color-var: #2E2E3A;
-    --secondary-color: #BC5D2E;
-    --secondary-color-var: #DE9151;
-    --accent-color: #F34213;
+    --primary-color: #000000;
+    --primary-color-var: #353531;
+    --secondary-color: #016FB9;
+    --secondary-color-var: #4D9ACE;
+    --accent-color: #EC4E20;
+    --accent-color-var: #FF9505;
     --font-size-mobile: 8px;
     --font-size1: 16px;
     --font-size2: 24px;
