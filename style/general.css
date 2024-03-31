@@ -17,11 +17,10 @@ body {
     font-weight: 300;
     font-size: var(--font-size1);
     display: flex;
-    margin: none;
-    padding: none;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
@@ -33,6 +32,11 @@ h1 {
 h2 {
     font-weight: 500;
     font-size: var(--font-size2);
+}
+
+.header {
+    position: absolute;
+    align-self: flex-start;
 }
 
 .block {
@@ -108,16 +112,4 @@ h2 {
     height: 320px;
     display: flex;
     justify-content: space-between;
-}
-
-@media (max-width: 660px) {
-    h1 {
-        font-size: var(--font-size2);
-    }
-
-    .large-block-group {
-        width: 320px;
-        height: 656px;
-        flex-direction: column;
-    }
 }
