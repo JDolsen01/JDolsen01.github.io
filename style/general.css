@@ -12,6 +12,24 @@
 }
 
 body {
+    background-color: var(--primary-color-var);
+    margin: 0;
+    padding: 0;
+}
+
+.main-page {
+    background-color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: var(--font-size1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.focus {
     background-color: var(--primary-color);
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -40,7 +58,7 @@ h2 {
 }
 
 @media (max-width: 640px) {
-    body {
+    .main-page {
         width: auto;
         height: auto;
         flex-direction: column;
