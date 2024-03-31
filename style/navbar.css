@@ -52,6 +52,10 @@
     box-shadow: none;
 }
 
+.navbar-links a:visited {
+    color: inherit;
+}
+
 .navbar-links a span {
     display: flex;
     flex-direction: column;
