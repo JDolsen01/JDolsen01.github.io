@@ -109,3 +109,15 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 660px) {
+    h1 {
+        font-size: var(--font-size2);
+    }
+
+    .large-block-group {
+        width: 320px;
+        height: 656px;
+        flex-direction: column;
+    }
+}
