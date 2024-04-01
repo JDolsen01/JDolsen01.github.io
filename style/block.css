@@ -72,7 +72,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 680px) {
     .large-block-group {
         width: 320px;
         height: 656px;

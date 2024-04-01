@@ -27,8 +27,9 @@ body {
     font-weight: 300;
     font-size: var(--font-size1);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100vw;
     height: 100vh;
 }
@@ -68,11 +69,6 @@ h2 {
     font-size: var(--font-size2);
 }
 
-.name {
-    position: absolute;
-    align-self: flex-start;
-}
-
 .home-button {
     background-color: var(--secondary-color);
     width: 40px;
@@ -86,21 +82,8 @@ h2 {
     justify-content: center;
 }
 
-@media (max-width: 640px) {
-    .landing-page {
-        width: auto;
-        height: auto;
-        flex-direction: column;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
+@media (max-width: 680px) {
     h1 {
         font-size: var(--font-size2);
-    }
-
-    .header {
-        position: static;
-        align-self: center;
     }
 }
