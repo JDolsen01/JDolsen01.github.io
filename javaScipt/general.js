@@ -1,21 +1,11 @@
-const body = document.getElementById("body");
-const schoolBlock = document.getElementById("school-block");
-schoolBlock.addEventListener("click", () => {
-    window.location.href = "schooling.html";
+const homeButton = document.getElementById("home-button");
+homeButton.addEventListener("click", () => {
+    window.location.href = "index.html";
 });
-
-const aboutBlock = document.getElementById("about-block");
-aboutBlock.addEventListener("click", () => {
-    window.location.href = "about.html";
+homeButton.addEventListener("mouseenter", () => {
+    document.getElementById("home").src = "images/home.png";
 });
-
-const projectsBlock = document.getElementById("projects-block");
-projectsBlock.addEventListener("click", () => {
-    window.location.href = "projects.html";
-});
-
-const experieneBlock = document.getElementById("experience-block");
-experieneBlock.addEventListener("click", () => {
-    window.location.href = "experience.html";
+homeButton.addEventListener("mouseleave", () => {
+    document.getElementById("home").src = "images/home-2.png";
 });
 
