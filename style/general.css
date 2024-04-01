@@ -48,7 +48,8 @@ header {
 footer {
     width: 100vw;
     text-align: center;
-    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: var(--primary-color-var);
 }
 
