@@ -55,7 +55,8 @@ footer {
 
 .content {
     background-color: var(--primary-color-var);
-    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px
 }
 
 h1 {
